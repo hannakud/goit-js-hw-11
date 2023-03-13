@@ -113,7 +113,7 @@ async function onLoadMore() {
 
 function cleanGallery() {
   gallery.innerHTML = '';
-  pageNumber = 1;
+  page = 1;
   loadMoreBtn.setAttribute('hidden', true);
 }
 
